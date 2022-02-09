@@ -10,5 +10,25 @@
   </head>
   <body>
     <h1>Design System</h1>
+    <div>
+      <button class ="button button--main">STATIC</button>
+      <button class ="button button--main button--main--pressed">PRESSED</button>
+      <button class ="button button--main button--main--pressed" disabled>DISABLED</button>
+    </div>
+    <div>
+      <button class ="button button--alt">STATIC</button>
+      <button class ="button button--alt button--alt--pressed">PRESSED</button>
+      <button class ="button button--alt button--alt--pressed" disabled>DISABLED</button>
+    </div>
+    <div>
+      <input class ="input input--active" type="text" placeholder="Static input placeholder"/>
+      <input class ="input input--active input--pressed" type="text" placeholder="Active input text"/>
+      <input class ="input" type="text" placeholder="Disabled input" disabled/>
+    </div>
+    <div>
+      <input class ="input input--error" type="text" placeholder="Input error!"/>
+      <input class ="input input--success" type="text" placeholder="Input success!"/>
+      <input class ="input input--warning" type="text" placeholder="This needs attention!"/>
+    </div>
   </body>
 </html>
