@@ -1,0 +1,12 @@
+a {
+  color: var(--sky-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+a:visited {
+	color: var(--wine-red);
+}

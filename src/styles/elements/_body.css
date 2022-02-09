@@ -1,0 +1,10 @@
+body {
+	font-size: var(--base-font-size);
+  font-family: var(--body-font);
+	color: var(--black);
+}
+
+h1 {
+	font-size: var(--title-font-size);
+	font-family: var(--title-font);
+}

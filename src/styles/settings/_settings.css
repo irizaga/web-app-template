@@ -1,0 +1,21 @@
+:root {
+	/*	colors	*/
+	--yellow: #ffe21d;
+	--dark-yellow: #ffd21d;
+	--sky-blue: #24afff;
+	--blue: #248bff;
+	--wine-red: #f26c6c;
+	--green: #27b667;
+	--black: #000;
+	--white: #fff;
+	
+	/* font-sizes */
+	--base-font-size: 1em;
+	--small-font-size: 0.85em;
+	--big-font-size: 1.25em;
+	--title-font-size: 3em;
+
+	/* fonts */
+	--body-font: 'Montserrat', sans-serif;
+	--title-font: 'Nunito', sans-serif;
+}
