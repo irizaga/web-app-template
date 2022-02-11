@@ -1,0 +1,49 @@
+.button{
+  color: var(--black);
+  font-family: var(--body-font);
+  background-color: var(--white);
+  border-style: solid;
+  border-radius: 20px;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 50%;
+  pointer-events: none;
+}
+
+.button--main {
+  border-color: var(--yellow);
+}
+
+.button--alt {
+  border-color: var(--sky-blue);
+}
+
+.button--main:hover {
+  background-color: var(--dark-yellow);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.button--alt:hover {
+  background-color: var(--blue);
+  color:var(--white);
+  font-weight: bold;
+}
+
+.button--main:active, .button--main--pressed {
+  background-color: var(--yellow);
+  border-style: none;
+  color:var(--black);
+  font-weight: bold;
+}
+
+.button--alt:active, .button--alt--pressed {
+  background-color: var(--sky-blue);
+  border-style: none;
+  color:var(--black);
+  font-weight: bold;
+}
