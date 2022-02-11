@@ -1,0 +1,37 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero::before {
+  background-image: url("../../images/techpc.jpg");
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: .75;
+  filter: brightness(75%);
+}
+
+.hero-content{
+  display: flex;
+  position: relative;
+  margin: 0 5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-title {
+  font-size: var(--title-font-size);
+  font-family: var(--title-font);
+  font-weight: 600;
+  margin-bottom: 0;
+  color: var(--white);
+  text-shadow: 1px 1px 2px var(--black);
+}

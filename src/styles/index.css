@@ -8,4 +8,6 @@
 @import 'elements/_links.css';
 
 @import 'components/_button.css';
+@import 'components/_header.css';
+@import 'components/_hero.css';
 @import 'components/_input.css';
