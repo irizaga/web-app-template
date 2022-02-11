@@ -1,7 +1,8 @@
 .button{
-  color: var(--black);
+  color: var(--white);
+  font-weight: bold;
   font-family: var(--body-font);
-  background-color: var(--white);
+  background-color: transparent;
   border-style: solid;
   border-radius: 20px;
   width: 120px;
@@ -25,25 +26,21 @@
 .button--main:hover {
   background-color: var(--dark-yellow);
   color: var(--white);
-  font-weight: bold;
 }
 
 .button--alt:hover {
   background-color: var(--blue);
   color:var(--white);
-  font-weight: bold;
 }
 
 .button--main:active, .button--main--pressed {
   background-color: var(--yellow);
   border-style: none;
   color:var(--black);
-  font-weight: bold;
 }
 
 .button--alt:active, .button--alt--pressed {
   background-color: var(--sky-blue);
   border-style: none;
   color:var(--black);
-  font-weight: bold;
 }
